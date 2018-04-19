@@ -7,13 +7,15 @@ How to install it:
 
 3) Move the files to the folder "retrieveUnpackaged"
 
-4) Configure in the build.properties the lines: 
-sf.username = <your username>
-sf.password = <your password><your security token>
+4) Configure in the build.properties the lines:<br/> 
+sf.username = <strong>\<your username\></strong><br/>
+sf.password = <strong>\<your password\>\<your security token\></strong><br/>
 
 5) Access your org and include the option "Waiting on Customer" in the field Status in the object Case
 
-6) Adjust the Page Layout Assignments:
-Page Layout "Change Management Case Feed"  => Record Type "Change"
-Page Layout "Technical Issue Case Feed"    => Record Type "Incident"
-Page Layout "Problem Management Case Feed" => Record Type "Problem"
+6) Adjust the Page Layout Assignments:<br/>
+<table>
+  <tr><td>Page Layout "Change Management Case Feed"</td><td>=></td><td>Record Type "Change"</td></tr>
+  <tr><td>Page Layout "Technical Issue Case Feed"</td><td>=></td><td>Record Type "Incident"</td></tr>
+  <tr><td>Page Layout "Problem Management Case Feed"</td><td>=></td><td>Record Type "Problem"</td></tr>
+</table>
